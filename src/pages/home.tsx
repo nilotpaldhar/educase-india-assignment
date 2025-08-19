@@ -15,10 +15,10 @@ const HomePage = () => {
         </section>
         <section className="flex flex-col gap-y-2.5 mt-7">
           <Button variant="primary" className="w-full" asChild>
-            <Link to="/login">Create Account</Link>
+            <Link to="/register">Create Account</Link>
           </Button>
           <Button variant="secondary" className="w-full">
-            <Link to="/register">Already Registered? Login</Link>
+            <Link to="/login">Already Registered? Login</Link>
           </Button>
         </section>
       </main>

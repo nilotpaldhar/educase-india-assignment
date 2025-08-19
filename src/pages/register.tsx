@@ -101,7 +101,6 @@ const RegisterPage = () => {
               value={form.company}
               onChange={handleInputChange}
               placeholder="Enter company name"
-              required
             />
             <div className="flex flex-col gap-y-3.5">
               <p className="text-sm leading-none">Are you an Agency?</p>

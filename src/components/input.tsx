@@ -15,6 +15,9 @@ const Input = ({
         className="text-[13px] font-normal leading-none absolute -top-1.5 left-3.5 bg-background pl-1 pr-2 text-primary text-sm"
       >
         {label}
+        {props.required ? (
+          <sup className="absolute -top-1 right-0 text-base leading-none text-[#DD4A3D]">*</sup>
+        ) : null}
       </label>
       <input
         type={type}
