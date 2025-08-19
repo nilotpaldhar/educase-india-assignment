@@ -20,8 +20,7 @@ const Input = ({
         type={type}
         id={id}
         className={cn(
-          'w-full border border-[#CBCBCB] rounded-md px-[18px] pt-2.5 pb-2 transition-all placeholder:text-[#919191] placeholder:texsm focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary',
-          'transition-colors duration-200',
+          'w-full border border-[#CBCBCB] rounded-md px-[18px] pt-2.5 pb-2 transition-all placeholder:text-[#919191] placeholder:text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary',
           className,
         )}
         {...props}
