@@ -28,7 +28,7 @@
 
 @layer base {
   body {
-    @apply bg-background text-foreground font-normal;
+    @apply bg-white text-foreground font-normal;
     font-family: var(--font-sans);
   }
 }

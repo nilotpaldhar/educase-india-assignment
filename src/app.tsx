@@ -1,9 +1,20 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import { HomePage } from './pages/home';
+import { LoginPage } from './pages/login';
+import { RegisterPage } from './pages/register';
+import { Profile } from './pages/profile';
+
 const App = () => {
   return (
-    <div className="max-w-2xs mx-auto py-5">
-      <h1 className="font-medium text-[28px]">Welcome to PopX</h1>
-      <p className="text-lg opacity-60">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/register" element={<RegisterPage />} />
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 
