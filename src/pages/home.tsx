@@ -9,18 +9,18 @@ const HomePage = () => {
   return (
     <Container className="flex flex-col justify-end">
       <main>
-        <Title>Welcome to PopX</Title>
-        <Description className="mt-2.5">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        </Description>
-        <div className="flex flex-col gap-y-2.5 mt-7">
+        <section className="flex flex-col space-y-2.5">
+          <Title>Welcome to PopX</Title>
+          <Description>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</Description>
+        </section>
+        <section className="flex flex-col gap-y-2.5 mt-7">
           <Button variant="primary" className="w-full" asChild>
             <Link to="/login">Create Account</Link>
           </Button>
           <Button variant="secondary" className="w-full">
             <Link to="/register">Already Registered? Login</Link>
           </Button>
-        </div>
+        </section>
       </main>
     </Container>
   );
