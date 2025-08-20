@@ -16,7 +16,7 @@ const Input = ({
       >
         {label}
         {props.required ? (
-          <sup className="absolute -top-1 right-0 text-base leading-none text-[#DD4A3D]">*</sup>
+          <sup className="absolute -top-1 right-0 text-sm leading-none text-[#DD4A3D]">*</sup>
         ) : null}
       </label>
       <input
